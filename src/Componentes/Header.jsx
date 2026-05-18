@@ -8,9 +8,11 @@ function Header() {
         <Link to="/">Inicio</Link>
         <Link to="/productos">Productos</Link>
         <Link to="/contacto">Contacto</Link>
+        <Link to="/tareas">Tareas</Link>
       </nav>
     </header>
   )
+  
 }
 
 export default Header
