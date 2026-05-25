@@ -1,5 +1,5 @@
 :root {
-  --color-primario: #6c63ff;
+  --color-primario: #e487fc;
   --color-secundario: #f5f5f5;
   --color-texto: #333;
   --color-fondo: #fff;
@@ -19,7 +19,7 @@ body {
   color: var(--color-texto);
 }
 
-/* HEADER */
+
 header {
   background-color: var(--color-primario);
   color: white;
@@ -30,7 +30,7 @@ header {
 }
 
 header h1 {
-  font-size: 1.5rem;
+  font-size: 3.5rem;
 }
 
 nav {
@@ -39,7 +39,7 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: rgb(17, 6, 6);
   text-decoration: none;
   font-weight: bold;
 }
@@ -48,14 +48,14 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* MAIN */
+
 main {
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* CARDS */
+
 .card {
   background: var(--color-fondo);
   border-radius: var(--radio);
@@ -63,6 +63,7 @@ main {
   padding: 1rem;
   margin: 1rem 0;
   transition: transform 0.2s;
+  color: black;
 }
 
 .card:hover {
@@ -76,9 +77,10 @@ main {
 
 .card h2 {
   margin: 0.5rem 0;
+  color:black;
 }
 
-/* FORMULARIO */
+
 input, textarea, select {
   width: 100%;
   padding: 0.75rem;
@@ -86,6 +88,8 @@ input, textarea, select {
   border: 1px solid #ccc;
   border-radius: var(--radio);
   font-size: 1rem;
+  background-color: var(--color-secundario);
+  color: black
 }
 
 input:focus, textarea:focus {
@@ -95,9 +99,9 @@ input:focus, textarea:focus {
 }
 
 button {
-  background-color: var(--color-primario);
-  color: white;
-  border: none;
+  background-color: rgb(255, 0, 76);
+  color: rgb(255, 255, 255);
+  border: #a3e608;
   padding: 0.75rem 1.5rem;
   border-radius: var(--radio);
   cursor: pointer;
@@ -110,11 +114,11 @@ button:hover {
 }
 
 button:disabled {
-  background-color: #ccc;
+  background-color: #e91404;
   cursor: not-allowed;
 }
 
-/* FOOTER */
+
 footer {
   background-color: var(--color-primario);
   color: white;
